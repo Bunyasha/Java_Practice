@@ -11,8 +11,7 @@ public class FirstTask {
             System.out.println(powIter(a, b));
 
         }
-
-                
+          
     }
 
 public static double powRecursion(int a, int b){
@@ -36,8 +35,7 @@ public static double powIter(int a, int b) {
             res*=a;
             b-=1;
         }
-        return(1/res);       
-            
+        return(1/res);            
         
     }
     while (b > 0) {
@@ -47,6 +45,5 @@ public static double powIter(int a, int b) {
         b = b / 2;
     }
     return res;
-}
-    
+}   
 }
